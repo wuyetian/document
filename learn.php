@@ -1,4 +1,22 @@
 <?php
+
+http://doc.songsong.net.cn/elasticsearch-php/  es 中文文档
+https://learnku.com/articles/22822  docker 
+https://learnku.com/laravel/t/22586  使用passport  处理api认证
+https://segmentfault.com/a/1190000006178770  webpack  入门
+https://learnku.com/laravel/t/6916/using-vaptcha-gesture-authentication-code-in-laravel  手势验证码
+https://github.com/xiaohuilam/laravel/wiki
+endroid/qr-code   php 生成二维码
+https://learnku.com/docs/laravel-mix/4.0 laravel mix 
+https://xianyunyh.gitbooks.io/php-interview/   php 面试
+https://www.ibrand.cc/open/article?course_id=1&chapter_id=1&article_id=1  laravel  小程序开发
+https://learnku.com/articles/5836/composer-laravel-package-local-development  扩展包本地开发
+https://learnku.com/docs/laravel-core-concept/5.5  深入 Laravel 核心 
+https://github.com/ivanakimov/hashids.php加密解密 隐藏真实id
+https://github.com/pjialin/py12306 刷票小助手
+https://github.com/guanguans/favorite-link  网站集锦
+http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html  git 基础命令
+https://github.com/wsargent/docker-cheat-sheet/blob/master/zh-cn/README.md  docker 速查表
 http://overapi.com/php  php函数库
 https://blog.csdn.net/sssnmnmjmf/article/details/68486261  TCP 握手
 https://github.com/ziadoz/awesome-php#documentation   php 包资源
@@ -9,7 +27,6 @@ https://www.cnblogs.com/hellohell/p/5718319.html 正则表达式
 // https://blog.csdn.net/linuxnews/article/details/51142191 nginx php-fpm
 https://juejin.im/post/5a2600bdf265da432b4aaaba  nginx  入门
 https://laravel-china.org/articles/2765/elasticsearch-in-order-to-search  ES使用
-find ./  -mtime +30 -name "*.log" |xargs rm 删除30天前的日志
 https://laravel-china.org/articles/19459  https证书
 https://segmentfault.com/a/1190000009745139  awk 命令
 
@@ -17,14 +34,32 @@ https://www.cnblogs.com/lamp01/p/8985068.html opcache 教程安装
 https://www.zybuluo.com/phper/note/1016714
 https://github.com/appstract/laravel-opcache 
 https://laravel-china.org/articles/17883 jwt
-
+https://www.zybuluo.com/dume2007/note/665734  rabbitmq 
 https://laravel-china.org/articles/11006/detailed-explanation-of-laravels-own-api-guard-drive-token  laravel api token
+https://www.cnblogs.com/johnson108178/p/8109596.html laravel swoole
 https://www.cnblogs.com/thrillerz/p/7137682.html nginx swoole
 https://www.cnblogs.com/wzjhoutai/p/6932007.html  nginx upstream 
 
 https://laravel-china.org/topics/17687  laravel深入浅出
 https://github.com/xiaohuilam/laravel/wiki
 
+https://laravel-china.org/articles/21488  redis 事件  链接超时
+https://www.awaimai.com/patterns/basic  设计模式
+
+https://laravel-china.org/articles/10885/full-use-of-jwt  laravel 中使用 jwt
+https://laravel-china.org/articles/19453   dingo api
+https://www.bookstack.cn/read/dingo-api-wiki-zh/Installation.md
+
+https://blog.csdn.net/qw_xingzhe/article/details/80555843  数据结构基础概念
+
+https://laravel-china.org/articles/21636  laravel api后台 小程序  
+https://github.com/HanSon/ngrok-script  内网穿透
+https://github.com/viest/php-ext-excel-export/wiki  高性能excel导出
+https://newt0n.github.io/2017/02/10/PHP-%E5%8D%8F%E7%A8%8B%E5%8E%9F%E7%90%86/  php 协程
+
+
+https://learnku.com/laravel/t/22586  passport laravel 使用
+find ./  -mtime +30 -name "*.log" |xargs rm 删除30天前的日志
 1.$_SERVER['REMOTE_ADDR'] 客户端IP，有可能是用户的IP，也可能是代理的IP。
 4.$_SERVER['SERVER_ADDR'] 获取服务器端IP
 
@@ -35,7 +70,7 @@ https://github.com/xiaohuilam/laravel/wiki
 ④数据的存储形式不一样，mysiam表存放在三个文件：结构、索引、数据，innoDB存储把结构存储为一个文件，索引和数据存储为一个文件
 ⑤myisam在查询和增加数据性能更优于innoDB，innoDB在批量删除方面性能较高。
 ⑥myisam支持表锁，而innoDB支持行锁
-
+MyIASM中存储了表的行数，所以当SELECT COUNT(*) FROM TABLE时只需要直接读取已经保存好的值而不需要进行全表扫描；
 
 1.根据访问IP统计UV
 awk '{print $1}'  access.log|sort | uniq -c |wc -l
@@ -130,7 +165,7 @@ if($some){
 Iconv("utf-8","gb2312",$str);
 
 $email=$_POST[’email’];
-if(!preg_match(‘/^[w.]+@([w.]+).[a-z]{2,6}$/i’,$email))  {
+if(!preg_match(‘/^[\w.]+@([\w.]+).[a-z]{2,6}$/i’,$email))  {
 echo “电子邮件检测失败”;
 }else{
 echo “电子邮件检测成功”;
@@ -257,3 +292,36 @@ function mb_str_split($str){
 那么cookie的作用域：
 
 cookie的作用域是domain本身以及domain下的所有子域名。
+
+function mystrtoupper($a){  
+    $b = str_split($a, 1);  
+    $r = '';  
+        var_dump(count($b));
+    foreach($b as $v){  
+
+        $v = ord($v);  
+        if($v >= 97 && $v<= 122){  
+            $v -= 32;  
+        }  
+        $r .= chr($v);  
+    }  
+    return $r;  
+}  
+转换成大写  支持中文
+
+
+数据库
+1.MySQL 有哪些存储引擎啊？都有什么区别？
+https://blog.csdn.net/zgrgfr/article/details/74455547
+2.Float、Decimal 存储金额的区别？
+3.Datetime、Timestamp 存储时间的区别？
+
+OSI七层协议？
+三次握手？四次关闭？
+为什么要三次握手，两次或者四次行不行？
+Tcp和Udp区别？
+粘包和拆包？
+一次网络请求全过程？
+一次网络请求全过程？
+没有cookie如何实现SESSION？
+SESSION有没有限制？有限制怎么办？
