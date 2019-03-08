@@ -1,5 +1,11 @@
 <?php
-
+https://learnku.com/articles/25070  redis 详解
+https://www.cnblogs.com/WuNaiHuaLuo/p/6107771.html  php  socket  编程基础
+https://www.jianshu.com/p/08bcf724196b  php 进程间通讯
+https://learnku.com/articles/24982#bd2a4f  设计模式简单描述
+https://www.jiangshuaijie.com/book/  前端数据分享
+https://blog.csdn.net/zhailihua/article/details/78712309  网页请求全过程
+https://learnku.com/articles/21370 通俗易懂的设计模式
 http://doc.songsong.net.cn/elasticsearch-php/  es 中文文档
 https://learnku.com/articles/22822  docker 
 https://learnku.com/laravel/t/22586  使用passport  处理api认证
