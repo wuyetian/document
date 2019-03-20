@@ -1,4 +1,12 @@
 <?php
+https://learnku.com/laravel/t/20144  图解oauth
+https://www.cnblogs.com/huchong/p/7469276.html 三次握手  四次分手详解
+https://blog.csdn.net/ted_cs/article/details/82881831 算法复杂度
+https://github.com/wudi/PHP-Interview-Best-Practices-in-China php 面试题
+https://www.cnblogs.com/zhaof/p/8490045.html  asyncio  python 协程
+https://learnku.com/laravel/t/17351 不用三方包 给 Laravel 开启 Swoole
+https://www.cnblogs.com/zsychanpin/p/7395635.html  mysql 隔离界级别和锁 
+https://learnku.com/articles/25204  php 面试大全
 https://learnku.com/articles/25070  redis 详解
 https://www.cnblogs.com/WuNaiHuaLuo/p/6107771.html  php  socket  编程基础
 https://www.jianshu.com/p/08bcf724196b  php 进程间通讯
@@ -13,6 +21,7 @@ https://segmentfault.com/a/1190000006178770  webpack  入门
 https://learnku.com/laravel/t/6916/using-vaptcha-gesture-authentication-code-in-laravel  手势验证码
 https://github.com/xiaohuilam/laravel/wiki
 endroid/qr-code   php 生成二维码
+https://www.cnblogs.com/hwlong/articles/8952189.html  python 并发编程
 https://learnku.com/docs/laravel-mix/4.0 laravel mix 
 https://xianyunyh.gitbooks.io/php-interview/   php 面试
 https://www.ibrand.cc/open/article?course_id=1&chapter_id=1&article_id=1  laravel  小程序开发
@@ -62,9 +71,15 @@ https://laravel-china.org/articles/21636  laravel api后台 小程序
 https://github.com/HanSon/ngrok-script  内网穿透
 https://github.com/viest/php-ext-excel-export/wiki  高性能excel导出
 https://newt0n.github.io/2017/02/10/PHP-%E5%8D%8F%E7%A8%8B%E5%8E%9F%E7%90%86/  php 协程
-
-
+https://yq.aliyun.com/articles/636281  单点登录详解
+https://learnku.com/articles/14482/php-multitask-co-process  php 协程
 https://learnku.com/laravel/t/22586  passport laravel 使用
+https://blog.csdn.net/soonfly/article/details/52175627  php 自定义session 处理类
+https://medium.com/@cheukfung/redis%E5%BB%B6%E8%BF%9F%E9%98%9F%E5%88%97-c940850a264f  redis 延迟队列 原子性
+https://segmentfault.com/a/1190000015635928  php  树的实现
+https://learnku.com/articles/6976/laravel-55-uses-passport-to-implement-auth-authentication passport  密码授权令牌
+https://learnku.com/laravel/t/22586  passport  个人访问令牌
+
 find ./  -mtime +30 -name "*.log" |xargs rm 删除30天前的日志
 1.$_SERVER['REMOTE_ADDR'] 客户端IP，有可能是用户的IP，也可能是代理的IP。
 4.$_SERVER['SERVER_ADDR'] 获取服务器端IP
@@ -290,7 +305,7 @@ function count_line($file)
 function mb_str_split($str){
     return preg_split('/(?<!^)(?!$)/u', $str );
 }
-
+bool setcookie ( string $name [, string $value = "" [, int $expire = 0 [, string $path = "" [, string $domain = "" [, bool $secure = false [, bool $httponly = false ]]]]]] )
 1.在setcookie中省略domain参数，那么domain默认为当前域名。
 
 2.domain参数可以设置父域名以及自身，但不能设置其它域名，包括子域名，否则cookie不起作用。
