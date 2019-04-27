@@ -1,4 +1,21 @@
 <?php
+https://learnku.com/articles/6784/the-open-source-project-open-source-project-on-monday-mall-write-a-mall-in-laravel-haha
+https://github.com/DavidNineRoc/monday-shop
+https://github.com/shisiying/webim
+https://github.com/huang-yi/laravel-swoole-http
+https://github.com/jack15083/laravel-admin 
+http://blog.fudenglong.site/2017/07/04/python%E7%88%AC%E8%99%AB%E6%80%BB%E7%BB%93/ python 爬虫总结
+https://learnku.com/articles/25879  mysql B+树
+https://draveness.me/mysql-innodb  mysql innodb 666
+http://www.cnblogs.com/skywang12345/p/3624343.html 红黑树介绍
+https://blog.csdn.net/z_ryan/article/details/79685072  B树 B+树介绍
+https://learnku.com/articles/27430 优化简历
+https://laravel-china.github.io/php-the-right-way/
+https://coffeephp.com/articles/4?utm_source=laravel-china.org 一份php笔试题
+https://learnku.com/articles/26443   国外的laravel 社区
+https://learnku.com/laravel/t/9365/teach-you-to-write-modern-php-code-without-using-a-framework  无框架PHP开发实践
+https://www.cnblogs.com/huangfuyuan/p/9510022.html  innodb 锁
+https://github.com/wangzheng0822/algo/tree/master/php  王争 算法
 https://learnku.com/laravel/t/20144  图解oauth
 https://www.cnblogs.com/huchong/p/7469276.html 三次握手  四次分手详解
 https://blog.csdn.net/ted_cs/article/details/82881831 算法复杂度
@@ -6,6 +23,7 @@ https://github.com/wudi/PHP-Interview-Best-Practices-in-China php 面试题
 https://www.cnblogs.com/zhaof/p/8490045.html  asyncio  python 协程
 https://learnku.com/laravel/t/17351 不用三方包 给 Laravel 开启 Swoole
 https://www.cnblogs.com/zsychanpin/p/7395635.html  mysql 隔离界级别和锁 
+https://github.com/guanguans/design-patterns-for-humans-cn  设计模式
 https://learnku.com/articles/25204  php 面试大全
 https://learnku.com/articles/25070  redis 详解
 https://www.cnblogs.com/WuNaiHuaLuo/p/6107771.html  php  socket  编程基础
@@ -64,9 +82,9 @@ https://www.awaimai.com/patterns/basic  设计模式
 https://laravel-china.org/articles/10885/full-use-of-jwt  laravel 中使用 jwt
 https://laravel-china.org/articles/19453   dingo api
 https://www.bookstack.cn/read/dingo-api-wiki-zh/Installation.md
-
+https://blinkfox.github.io/2018/09/28/qian-duan/hexo-bo-ke-zhu-ti-zhi-hexo-theme-matery-de-jie-shao/  hexo 闪烁之狐主题
 https://blog.csdn.net/qw_xingzhe/article/details/80555843  数据结构基础概念
-
+http://wiki.jikexueyuan.com/project/nginx-lua/coroutines.html nginx_lua
 https://laravel-china.org/articles/21636  laravel api后台 小程序  
 https://github.com/HanSon/ngrok-script  内网穿透
 https://github.com/viest/php-ext-excel-export/wiki  高性能excel导出
@@ -79,7 +97,10 @@ https://medium.com/@cheukfung/redis%E5%BB%B6%E8%BF%9F%E9%98%9F%E5%88%97-c940850a
 https://segmentfault.com/a/1190000015635928  php  树的实现
 https://learnku.com/articles/6976/laravel-55-uses-passport-to-implement-auth-authentication passport  密码授权令牌
 https://learnku.com/laravel/t/22586  passport  个人访问令牌
+http://www.ruanyifeng.com/blog/2012/07/git.html git分支策略管理
+https://git-scm.com/book/zh/v2  git文档
 
+https://github.com/wangzheng0822/algo/tree/master/php  算法实现
 find ./  -mtime +30 -name "*.log" |xargs rm 删除30天前的日志
 1.$_SERVER['REMOTE_ADDR'] 客户端IP，有可能是用户的IP，也可能是代理的IP。
 4.$_SERVER['SERVER_ADDR'] 获取服务器端IP
@@ -346,3 +367,4 @@ Tcp和Udp区别？
 一次网络请求全过程？
 没有cookie如何实现SESSION？
 SESSION有没有限制？有限制怎么办？
+
