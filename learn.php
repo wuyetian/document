@@ -1,6 +1,17 @@
 <?php
-https://learnku.com/articles/6784/the-open-source-project-open-source-project-on-monday-mall-write-a-mall-in-laravel-haha
-https://github.com/DavidNineRoc/monday-shop
+https://learnku.com/articles/27641  mysql 总结
+https://learnku.com/articles/28233 文档管理系统
+https://learnku.com/docs/forum-in-laravel-tdd laravel vue 结合教程
+https://learnku.com/articles/4271/laravel-54-vue-collection  laravel vue
+https://github.com/jackfrued/Python-100-Days
+https://github.com/mix-php/mix swoole 框架
+https://learnku.com/courses/laravel-package  视频教程
+http://redisdoc.com/hash/index.html  redis  https://www.cnblogs.com/zuochuang/p/8242796.html 命令列表
+https://blog.51cto.com/silencezone/1703413 https://segmentfault.com/a/1190000002686153 502  504的区别
+https://github.com/FireLustre/php-dfa-sensitive  敏感词过滤
+https://learnku.com/articles/28245#08098e 秒杀思路
+https://learnku.com/articles/6784/the-open-source-project-open-source-project-on-monday-mall-write-a-mall-in-laravel-haha larael 商城
+https://github.com/DavidNineRoc/monday-shop laravel 商城
 https://github.com/shisiying/webim
 https://github.com/huang-yi/laravel-swoole-http
 https://github.com/jack15083/laravel-admin 
@@ -27,7 +38,8 @@ https://github.com/guanguans/design-patterns-for-humans-cn  设计模式
 https://learnku.com/articles/25204  php 面试大全
 https://learnku.com/articles/25070  redis 详解
 https://www.cnblogs.com/WuNaiHuaLuo/p/6107771.html  php  socket  编程基础
-https://www.jianshu.com/p/08bcf724196b  php 进程间通讯
+https://www.jianshu.com/p/08bcf724196b  php 进程间通
+https://learnku.com/articles/27556 设计模式
 https://learnku.com/articles/24982#bd2a4f  设计模式简单描述
 https://www.jiangshuaijie.com/book/  前端数据分享
 https://blog.csdn.net/zhailihua/article/details/78712309  网页请求全过程
@@ -93,7 +105,7 @@ https://yq.aliyun.com/articles/636281  单点登录详解
 https://learnku.com/articles/14482/php-multitask-co-process  php 协程
 https://learnku.com/laravel/t/22586  passport laravel 使用
 https://blog.csdn.net/soonfly/article/details/52175627  php 自定义session 处理类
-https://medium.com/@cheukfung/redis%E5%BB%B6%E8%BF%9F%E9%98%9F%E5%88%97-c940850a264f  redis 延迟队列 原子性
+https://medium.com/@cheukfung/redis%E5%BB%B6%E8%BF%9F%E9%98%9F%E5%88%97-c940850a264f  redis 磁延迟队列 原子性
 https://segmentfault.com/a/1190000015635928  php  树的实现
 https://learnku.com/articles/6976/laravel-55-uses-passport-to-implement-auth-authentication passport  密码授权令牌
 https://learnku.com/laravel/t/22586  passport  个人访问令牌
