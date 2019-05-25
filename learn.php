@@ -1,4 +1,11 @@
 <?php
+https://www.swoft.org/docs/2.x/zh-CN/ready/tradition.html
+https://www.cnblogs.com/yingzi1028/p/10310255.html vue 学习视频
+https://github.com/jcc/blog  vue  +  laravel 的博客
+https://learnku.com/articles/3517/finally-came-combined-with-laravel-53-vue-21-component-of-the-development-of-the-blog-system vue 和laravel 的博客
+https://learnku.com/articles/27641#d9b4b8  mysql 资料
+https://github.com/luvvien/laravel-blog laravel  开源博客
+https://segmentfault.com/a/1190000012948613#articleHeader2  websocket  详解
 https://learnku.com/articles/27641  mysql 总结
 https://learnku.com/articles/28233 文档管理系统
 https://learnku.com/docs/forum-in-laravel-tdd laravel vue 结合教程
@@ -99,6 +106,7 @@ https://blog.csdn.net/qw_xingzhe/article/details/80555843  数据结构基础概
 http://wiki.jikexueyuan.com/project/nginx-lua/coroutines.html nginx_lua
 https://laravel-china.org/articles/21636  laravel api后台 小程序  
 https://github.com/HanSon/ngrok-script  内网穿透
+https://github.com/mk-j/PHP_XLSXWriter
 https://github.com/viest/php-ext-excel-export/wiki  高性能excel导出
 https://newt0n.github.io/2017/02/10/PHP-%E5%8D%8F%E7%A8%8B%E5%8E%9F%E7%90%86/  php 协程
 https://yq.aliyun.com/articles/636281  单点登录详解
