@@ -1,4 +1,10 @@
 <?php
+https://laravelacademy.org/api-driven-development-laravel-vue
+https://github.com/MisterBooo/LeetCodeAnimation 
+https://www.easyswoole.com/Manual/3.x/Cn/_book/Components/Socket/Tcp.html  easyswoole
+https://github.com/overtrue/socialite  第三方登陆
+https://learnku.com/docs/the-laravel-way/5.6/Tao-5-1/2942  laravel 解说
+https://laravelcode.cn/docs/5.8/helper  laravel 命令速查表
 https://www.swoft.org/docs/2.x/zh-CN/ready/tradition.html
 https://www.cnblogs.com/yingzi1028/p/10310255.html vue 学习视频
 https://github.com/jcc/blog  vue  +  laravel 的博客
