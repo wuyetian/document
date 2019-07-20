@@ -1,4 +1,39 @@
 <?php
+
+https://github.com/moell-peng/mojito/blob/master/README_zh.md  laravel vue 后台管理
+
+https://juejin.im/post/5cc65aace51d456e5633de80#heading-0 mysql索引
+
+https://segmentfault.com/a/1190000013151506  jwt 问题
+
+
+https://juejin.im/post/5c6b9c09f265da2d8a55a855  mysql 优化面试
+https://juejin.im/post/5d23ef4ce51d45572c0600bc mysql索引问答
+https://juejin.im/post/5cc65aace51d456e5633de80  mysql 索引讲解
+
+# vue
+https://github.com/bailicangdu/vue2-happyfri  vue  vuex 入门  
+https://github.com/lps243492947/learn_git/tree/master/vue-demo/KFC/kfc   vue kfc
+https://juejin.im/post/5d31277b51882549491754e1#heading-0 vue kfc
+https://juejin.im/post/5caab6f0f265da24c1118d90 vue element 搭建
+
+
+http://kklin.farbox.com/post/shu-ju-ku-she-ji/mysql/2-xing-neng-you-hua/2-mysqlsuo-ding-ji-zhi  mysql 锁机制
+
+https://www.jianshu.com/p/fa8192853184 聚簇索引与非聚簇索引
+
+https://learnku.com/articles/31108  分片上传下载
+
+https://learnku.com/articles/27430#7294c9  面试准备
+https://learnku.com/articles/28758 php 笔试题
+https://jwt-auth.readthedocs.io/en/develop/resources/ jwt 包文档
+https://learnku.com/articles/28896 腾讯面试题
+https://learnku.com/articles/28772  面试
+https://learnku.com/docs/laravel-cheatsheet/5.8  laravel 速查表
+https://www.cnblogs.com/bethal/p/5514557.html  nginx 正则
+https://learnku.com/articles/4166/nginx-configuration-summary  nginx 小手册
+https://www.npmjs.com/package/vue-multiselect npm包管理地址
+https://learnku.com/laravel/t/2777/laravel-53-multi-user-login#cd8992  laravel 多表用户登陆
 https://laravelacademy.org/api-driven-development-laravel-vue
 https://github.com/MisterBooo/LeetCodeAnimation 
 https://www.easyswoole.com/Manual/3.x/Cn/_book/Components/Socket/Tcp.html  easyswoole
@@ -64,6 +99,7 @@ https://segmentfault.com/a/1190000006178770  webpack  入门
 https://learnku.com/laravel/t/6916/using-vaptcha-gesture-authentication-code-in-laravel  手势验证码
 https://github.com/xiaohuilam/laravel/wiki
 endroid/qr-code   php 生成二维码
+https://zhuanlan.zhihu.com/p/66370467  python 开源项目
 https://www.cnblogs.com/hwlong/articles/8952189.html  python 并发编程
 https://learnku.com/docs/laravel-mix/4.0 laravel mix 
 https://xianyunyh.gitbooks.io/php-interview/   php 面试
@@ -76,6 +112,10 @@ https://github.com/guanguans/favorite-link  网站集锦
 http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html  git 基础命令
 https://github.com/wsargent/docker-cheat-sheet/blob/master/zh-cn/README.md  docker 速查表
 http://overapi.com/php  php函数库
+
+
+https://zhuanlan.zhihu.com/p/73467254  三次握手   四次挥手
+https://juejin.im/post/5d2757356fb9a07ef7109ecc#heading-3  tcp 详解
 https://blog.csdn.net/sssnmnmjmf/article/details/68486261  TCP 握手
 https://github.com/ziadoz/awesome-php#documentation   php 包资源
 https://github.com/xianyunyh/PHP-Interview  php 资源
@@ -127,6 +167,11 @@ http://www.ruanyifeng.com/blog/2012/07/git.html git分支策略管理
 https://git-scm.com/book/zh/v2  git文档
 
 https://github.com/wangzheng0822/algo/tree/master/php  算法实现
+
+https://www.cnblogs.com/vcmq/p/9484385.html ngixn 防盗链设置
+
+https://juejin.im/post/5cbe71c9f265da03a54c1d29  python 爬取代理ip
+
 find ./  -mtime +30 -name "*.log" |xargs rm 删除30天前的日志
 1.$_SERVER['REMOTE_ADDR'] 客户端IP，有可能是用户的IP，也可能是代理的IP。
 4.$_SERVER['SERVER_ADDR'] 获取服务器端IP
