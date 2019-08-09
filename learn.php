@@ -1,5 +1,36 @@
 <?php
 
+
+https://juejin.im/post/5d48f3b7e51d4561e224a2c8#heading-10  vue 进阶
+
+https://mp.weixin.qq.com/s/StqqafHePlBkWAPQZg3NrA  https 
+
+https://zhuanlan.zhihu.com/p/69869004  python 资源大全
+
+https://juejin.im/post/5d41924f5188255d5102e1fd  
+
+
+https://github.com/yeszao/dnmp#2%E5%BF%AB%E9%80%9F%E4%BD%BF%E7%94%A8
+https://docs.docker.com/engine/reference/builder/#user docker api 文档
+https://blog.csdn.net/wsscy2004/article/details/25878223
+https://blog.csdn.net/u011781521/article/details/80464065
+`docker-compose`
+https://blog.51cto.com/9291927/2310444  docker-compose  详解
+https://www.jianshu.com/p/2191d2464248  docker-compose  样例
+https://github.com/guanguans/dnmp-plus  php nginx 开发环境 docker-compose
+
+
+https://www.cnblogs.com/songwenjie/p/8575579.html  websocket  upgrage
+
+https://github.com/guanguans/design-patterns-for-humans-cn  php 设计模式
+
+
+https://juejin.im/post/5d41eec26fb9a06ae439d29f#heading-12  vue 生命周期
+
+https://blog.csdn.net/sinat_21026543/article/details/80078993  关注表设计
+
+https://github.com/immortalChensm/laravel5.8  laravel5.8 源码注解
+
 https://github.com/moell-peng/mojito/blob/master/README_zh.md  laravel vue 后台管理
 
 https://juejin.im/post/5cc65aace51d456e5633de80#heading-0 mysql索引
@@ -18,11 +49,20 @@ https://juejin.im/post/5d31277b51882549491754e1#heading-0 vue kfc
 https://juejin.im/post/5caab6f0f265da24c1118d90 vue element 搭建
 
 
+https://learnku.com/articles/32189  书籍
+
 http://kklin.farbox.com/post/shu-ju-ku-she-ji/mysql/2-xing-neng-you-hua/2-mysqlsuo-ding-ji-zhi  mysql 锁机制
 
 https://www.jianshu.com/p/fa8192853184 聚簇索引与非聚簇索引
 
 https://learnku.com/articles/31108  分片上传下载
+
+
+https://blog.csdn.net/bntX2jSQfEHy7/article/details/79549368  hash 取模和一致性hash问题
+
+https://lhammer.cn/You-need-to-know-css/#/zh-cn/translucent-borders  css 
+
+https://zhuanlan.zhihu.com/p/75036835  python 100抓
 
 https://learnku.com/articles/27430#7294c9  面试准备
 https://learnku.com/articles/28758 php 笔试题
@@ -144,6 +184,8 @@ https://github.com/xiaohuilam/laravel/wiki
 https://laravel-china.org/articles/21488  redis 事件  链接超时
 https://www.awaimai.com/patterns/basic  设计模式
 
+
+https://learnku.com/articles/7264/ 无痛刷新token
 https://laravel-china.org/articles/10885/full-use-of-jwt  laravel 中使用 jwt
 https://laravel-china.org/articles/19453   dingo api
 https://www.bookstack.cn/read/dingo-api-wiki-zh/Installation.md
@@ -423,7 +465,7 @@ function mystrtoupper($a){
 转换成大写  支持中文
 
 
-数据库
+/*数据库
 1.MySQL 有哪些存储引擎啊？都有什么区别？
 https://blog.csdn.net/zgrgfr/article/details/74455547
 2.Float、Decimal 存储金额的区别？
@@ -439,3 +481,32 @@ Tcp和Udp区别？
 没有cookie如何实现SESSION？
 SESSION有没有限制？有限制怎么办？
 
+
+浏览器输入 url 到页面的展现，具体发生了些什么可以展开说下么
+断于上述题目知识点。第二个问题笔者通常喜欢问一些考察可深可浅的一些题目，注入：浏览器输入 url 到页面的展现，具体发生了些什么可以展开说下么
+基本回答都是
+
+在浏览器地址栏输入URL
+浏览器解析URL获取协议，主机，端口，path
+浏览器组装一个HTTP（GET）请求报文
+浏览器获取主机ip地址
+打开一个socket与目标IP地址，端口建立TCP链
+TCP链接建立后发送HTTP请求
+服务器将响应报文通过TCP连接发送回浏览器，浏览器接收HTTP响应
+根据资源类型决定如何处理（假设资源为HTML文档）
+解析HTML文档，构件DOM树，下载资源，构造CSSOM树，执行js脚本
+最后展现出来给用户
+
+
+基本如果应聘者只回到了上述步骤，很多关键步骤（前端应该了解的知识点）没有提及，那么基本凉凉一半了。这里简述下笔者感觉，这其中你应该具体展开说明的。
+
+浏览器发送请求，是否需要查看缓存？是否请求资源在缓存中并且新鲜，跳转到转码步骤？如果资源已经缓存，是否新鲜？如何检查？怎么判断、http1.0 和 http1.1 的区别是什么，这些字段的优先级是怎么样子的。
+浏览器解析 url 获取协议，过程是什么？DNS 递归查询可否介绍下？
+建立 TCP 链接的三次握手是否可以介绍下
+服务器接受到请求，是否需要检查缓存？检查什么字段？什么样的缓存会需要服务端检查？
+服务端发送 TCP 链接，浏览器接受 http 相应后，根据什么来决定是否需要关闭连接？关闭 TCP 的四次挥手是什么？
+浏览器是否需要检查状态码，有哪些状态码？（笔者高频考码：304、200）
+在解析的时候，具体如何解析、是否有顺序。（重绘重排高频考题就在这里）
+总结如上、我们是否可以给出一些基本的网站优化手段？？？
+
+*/
